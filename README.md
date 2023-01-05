@@ -1,4 +1,4 @@
-![logo](./assets/images/filaSrmony.png)
+![logo](assets/images/filarmony-logo.png)
 
 # FILARMONY
 
