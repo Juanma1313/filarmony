@@ -2,11 +2,12 @@
 
 # FILARMONY
 
-This site intents to be a hub for all type of music lovers. Musicians, melomancers, singers, dancers, composers, 
+This site aims to be a hub for all kinds of music lovers, acting as a connecting thread between musicians, music lovers, singers, dancers, composers and their corresponding companies.
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+This website is self-financed by links to sponsors who receive visits from users who may be interested in their products.
+Music or dance schools, instrument shops, music download services and other related businesses can enhance their internet presence by displaying links to their own web pages on this website, without appearing as commercial advertisements. 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+The idea is that as this website increases its content, it will also increase its attractiveness to consumers, who will be able to satisfy all their musical needs from one centralised site.
 
 ## Features 
 
