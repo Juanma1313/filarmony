@@ -10,6 +10,63 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    color:cornflowerblue;
+    height: 1000px;
+    width: 100%;
+    background: url('../images/note-in-flames.jpg') no-repeat center center;
+    background-size:cover;
+    background-color: black;
+    position: relative;
+}
+
+
+/* headings and logo */
+#logo {
+    float: left;
+    width:500px;
+}
+#logo>img {
+    width:500px;
+    /*position: absolute;*/
+    left:0px;
+    top:0px;
+}
+#logo>p {
+    width:500px;
+    position: absolute;
+    left:80px;
+    top:150px;
+    color:khaki;
+    font-size: 10px;
+}
+
+#main_menu {
+    font-size: 100%;
+    letter-spacing: 3px;
+    line-height: 100px;
+}
+#main_menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 50px;
+}
+#main_menu a {
+    border:1px solid black;
+    text-decoration: none;
+    color:aliceblue;
+}
+
+#main_menu a:hover {
+    border:1px solid red;
+    border-radius: 20%;
+}
+
+#main_menu .active {
+    /*border-bottom: 1px solid #3a3a3a;*/
+    border:1px solid yellow;
+    border-radius: 20%;
+    color:aqua;
+    background-color:navy;
 }
 
 /* TODO */
