@@ -10,7 +10,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    color:cornflowerblue;
+    color:whitesmoke;
     height: 1000px;
     width: 100%;
     background: url('../images/note-in-flames.jpg') no-repeat center center;
@@ -21,17 +21,25 @@ body {
 
 
 /* headings and logo */
-#logo {
-    float: left;
-    width:500px;
+
+header {
+    height: 200px;
 }
-#logo>img {
+#logo {
+    /* Logo bitmap 893x342 - w/h relation= 0.38 */
     width:500px;
+    height: 190px;
+    float: left;
+
+}
+#logo img {
+    width:100%;
+    height: 100%;
     /*position: absolute;*/
     left:0px;
     top:0px;
 }
-#logo>p {
+#logo p {
     width:500px;
     position: absolute;
     left:80px;
@@ -41,9 +49,13 @@ body {
 }
 
 #main_menu {
+    height: 100px;
+    width: 50%;
     font-size: 100%;
     letter-spacing: 3px;
     line-height: 100px;
+    float: right;
+
 }
 #main_menu li {
     float: right;
@@ -52,6 +64,7 @@ body {
 }
 #main_menu a {
     border:1px solid black;
+    border-radius: 20%;
     text-decoration: none;
     color:aliceblue;
 }
@@ -62,7 +75,6 @@ body {
 }
 
 #main_menu .active {
-    /*border-bottom: 1px solid #3a3a3a;*/
     border:1px solid yellow;
     border-radius: 20%;
     color:aqua;
@@ -71,9 +83,81 @@ body {
 
 /* Presentation section */
 #presentation {
-    width:30%
-    
+    width: 100%;
+    clear:both;
+    float: left;
+}
+#content-menu {
+    float:right;
+    width: 30%;
+    font-size: 100%;
+    letter-spacing: 3px;
+    line-height: 75px;
+    /*background-color: rgb(0, 0, 0, .5);*/
+    padding: 50px;
 }
 
+#content-menu li {
+    list-style-type: none;
+    
+}
+#content-menu a {
+    border:1px solid black;
+    border-radius: 20%;
+    color:aliceblue;
+    background-color:  rgb(0, 0, 0, .7);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
 
+#content-menu a:hover {
+    border:1px solid red;
+    border-radius: 20%;
+    background-color:  rgb(0, 0, 0);
+}
+
+#content-menu .active {
+    border:1px solid yellow;
+    border-radius: 20%;
+    color:aqua;
+    background-color:navy;
+}
+
+/* With us text */
+#with-us-text {
+    width: 30%;
+    font-size: 100%;
+    float:left;
+    margin-left: 50px;
+}
+#with-us-text h1 {
+    text-align: center;
+    font-size: 150%;
+}
+#with-us-text h2 {
+    text-align: left;
+    font-size: 120%;
+    color:darkkhaki;
+}
+
+#with-us-text p {
+    text-align:justify;
+    font-size: medium;
+    margin-bottom: 10px;
+    color: rgb(139, 169, 226);
+}
+
+#with-us-text hr {
+    border-top: 1px solid darkkhaki;
+    width: 100%;
+    margin: 5px 0;
+}
+
+/* Footer */
+
+footer{
+    clear:both;
+}
 /* TODO */
