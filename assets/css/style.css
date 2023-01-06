@@ -14,7 +14,7 @@ body {
     height: 1000px;
     width: 100%;
     background: url('../images/note-in-flames.jpg') no-repeat center center;
-    background-size:cover;
+    background-size: coverq;
     background-color: black;
     position: relative;
 }
@@ -145,7 +145,7 @@ header {
 #with-us-text p {
     text-align:justify;
     font-size: medium;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: rgb(139, 169, 226);
 }
 
@@ -160,4 +160,12 @@ header {
 footer{
     clear:both;
 }
+
+
+.pie{
+    width: 96%;
+    margin: 0 auto;
+}
+
+
 /* TODO */
