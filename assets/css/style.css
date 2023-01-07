@@ -7,7 +7,7 @@
     border: none;
 }
 
-body {
+#home-page {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color:whitesmoke;
@@ -19,9 +19,7 @@ body {
     position: relative;
 }
 
-
 /* headings and logo */
-
 header {
     height: 200px;
 }
@@ -129,7 +127,8 @@ header {
 
 /* With us text */
 #with-us-text {
-    width: 30%;
+    background-color:rgb(0, 0, 0, .7);
+    width: 40%;
     padding: 0 50px 50px 50px;
     font-size: 100%;
     float:left;
@@ -199,16 +198,26 @@ footer{
     margin-right: 50px;
 }
 
-/* About ud page */
+/* About us page */
+#about-us-page {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color:whitesmoke;
+    height: 1000px;
+    width: 100%;
+    background: url('../images/treble-clef-in-flames.jpg') no-repeat center center;
+    background-size: cover;
+    background-color: black;
+    position: relative;
+}
 
 #about-us-text {
     background-color:rgb(0, 0, 0, .7);
-    width: 50%;
+    width: 40%;
     padding: 0 50px 50px 50px;
     font-size: 100%;
     float:left;
 }
-
 #about-us-text h1 {
     text-align: center;
     font-size: 150%;
