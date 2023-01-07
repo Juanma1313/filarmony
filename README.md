@@ -35,7 +35,7 @@ At the moment there are 3 functional pages implemented:
 
 - __The Content menu__
 
-  - The content menú provides a way for the user to access to a related content page dinamically created acording to the user type.
+  - The content menú provides a way for the user to access to a related content page dynamically created acording to the user type.
   
 ![Content menu](doc/scrfeenshots/content-menu.png)
 
@@ -65,17 +65,16 @@ At the moment there are 3 functional pages implemented:
 
 - __The Sign Up Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to get signed up to Filarmony to start gaining access to all the content. The user will be able specify the type of user to be used for the dynamic creation of the content pages. 
+  - The user will be asked to submit their full name and email address. 
 
 ![Sign Up](doc/scrfeenshots/sign-up.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
-- Another feature idea
+- All the content pages would be implemented in the future with dynamic content.
+- Since this is an international web page, it sould be inmplemented in additional languages (Spanish, German, French, etc..)
 
 ## Testing 
 
