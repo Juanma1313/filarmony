@@ -4,23 +4,34 @@
 
 This site aims to be a hub for all kinds of music lovers, acting as a connecting thread between musicians, music lovers, singers, dancers, composers and their corresponding companies.
 
-This website is self-financed by links to sponsors who receive visits from users who may be interested in their products.
+This website should be self-financed by links to sponsors who receive visits from users who may be interested in their products.
 Music or dance schools, instrument shops, music download services and other related businesses can enhance their internet presence by displaying links to their own web pages on this website, without appearing as commercial advertisements. 
 
 The idea is that as this website increases its content, it will also increase its attractiveness to consumers, who will be able to satisfy all their musical needs from one centralised site.
 
 ## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This project defines a static website that serves as a hub for users to find music-related content in a structured way.
+The ultimate goal is to get sponsors to provide links to the content, so that the user can consume their products without being bombarded by intrusive advertisements.
+At the moment there are 3 functional pages implemented:
+* The 'Home' page :  
+  - Displays generic information about the service to attract the user.  
+  - A Navigation Bar (Main Menu) 
+  - A menu to access the contents
+  - A footer with contact information.
+* The 'About Us' page:  
+    - Displays basic information about the company
+* The 'Sign Up" page:
+   - Allows a user to register with the server for future visits.
+ 
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, About Us  and Sign Up page, and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](doc/scrfeenshots/navigation-bar.png)
 
 - __The landing page image__
 

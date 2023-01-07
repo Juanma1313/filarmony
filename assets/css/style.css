@@ -298,7 +298,7 @@ footer{
     color: darkkhaki;
 }
 
-/* For larger to medium screens size from 1200px wide and down */
+/* For screens size smaller than 1024px */
 @media screen and (max-width: 1023px) {
     #main_menu {
         float: left;
