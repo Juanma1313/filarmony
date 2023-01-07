@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Filarmony</title>
 </head>
-<body id="home-page">
+<body id="sign-up-page">
     <header> 
         <div id="logo">
         <a href="index.html" >
@@ -20,52 +20,49 @@
         <div id="main_menu">
         <nav >
             <ul>
-                <li><a href="sign-up.html">&nbsp Sign Up &nbsp </a></li>
-                <li><a href="about-us.html">&nbsp About us &nbsp </a></li>
-                <li><a href="index.html" class="active">&nbsp Home &nbsp    </a></li>
+                <li><a href="sign-up.html" class="active">&nbsp Sign Up &nbsp </a></li>
+                <li><a href="about-us.html" >&nbsp About us &nbsp </a></li>
+                <li><a href="index.html" >&nbsp Home &nbsp    </a></li>
             </ul>
         </nav>
         </div>
     </header>
-    <section id="presentation">
-        <div id="content-menu">
-            <nav >
-                <ul>
-                    <li><a href="#">&nbsp&nbspEducation&nbsp&nbsp</a></li>
-                    <li><a href="#">&nbsp&nbspProfesdionals&nbsp&nbsp</a></li>
-                    <li><a href="#">&nbsp&nbspShops&nbsp&nbsp</a></li>
-                    <li><a href="#">&nbsp&nbspMedia&nbsplibrary&nbsp&nbsp</a></li>
-                    <li><a href="#">&nbsp&nbspNews&nbspand&nbspEvents&nbsp&nbsp</a></li>
-                </ul>
-            </nav>
+    <section id="sign-up-text">
+        <h1>Sign Up</h1>
+        <div>
+            <form method="POST" action="https://formdump.codeinstitute.net/" >
+                <!-- name, lastname and e-mail input fields -->
+                <label for="fname">First Name</label>
+                <input id="fname" name="first_name" type="text" required class="text-input">
+                
+                <label for="lname">Last Name</label>
+                <input id="lname" name="last_name" type="text" required class="text-input">
+                
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" required class="text-input">
+                
+                <!-- Radio buttons for user type -->
+                <input id="user" type="radio" name="user_type" value="user" required checked>
+                <label for="user">User</label>
     
-        </div>
-        <div id="with-us-text">
-            <h1>With us you can ..</h1>
-
-            <h2>Listen Music</h2><hr>
-            <p>Whether you listen to music for relaxation or excitement, join us and enjoy our gatherings and concerts all year round.</p>
-
-            <h2>Share Music</h2><hr>
-            <p>There is music in all forms and media. Check our eclectic catalog of videos, audios and scores. Most of them are for free.</p>
-
-            <h2>Play Music</h2><hr>
-            <p>If playing in a group is your goal, join a Jazz, Rock, Classical, Folk or Disco band.  Check out our musicians wall.</p>
-
-            <h2>Learn music</h2><hr>
-            <p>Learning to sing, play an instrument or simply learn to read music is easy by joining one of our partner academies and associations.</p>
-
-            <h2>Dance with us</h2><hr>
-            <p>Join a dance group and have fun dancing. We offer you information about the best dance academies and clubs.</p>
-
+                <input id="professional" type="radio" name="user_type" value="professional">
+                <label for="professional">Profesional</label>
+    
+                <input id="company" type="radio" name="user_type" value="company">
+                <label for="company">Company/Shop</label>
+                
+                <!-- Submition button-->
+                <input class="join-button" type="submit" value="Join Us!" class="join-button">
+            </form>
+    
         </div>
     </section>
     <footer>
         <div id='contact-info'>
             <h3>Filarmony GmbH</h4>
             <div>
-                <h4><img src='assets/images/ico-phone.png' alt="phone icon"/><a href="tel:+4915776405299" title='Filarmony phone'>+49 157 76405299 </a></h5>
-                <h4><img src='assets/images/ico-email.png' alt="email icon"/><a href='mailto:j.heras13@gmail.com' title='Filarmony e-Mail address'>j.heras13@gmail.com</a></h5>
+                <h4><img src='assets/images/ico-phone.png' alt="phone icon"/><a href="phone:653776196" title='Filarmony phone'>+49 157 76405299 </a></h5>
+                <h4><img src='assets/images/ico-email.png' alt="email icon"/><a href='mailto:info@divertimusica.com' title='Filarmony e-Mail address'>j.heras13@gmail.com</a></h5>
                 <h4><img src='assets/images/ico-location.png' alt="location icon"/>Friedrich-List-Str. 10, 71032-Böblingen, Deutchland</h5>
             </div>
             <div style='clear:both'></div>

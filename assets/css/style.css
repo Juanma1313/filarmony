@@ -1,4 +1,5 @@
-/* Main rules */
+/************** 
+ * Main rules */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@500;800&family=Oswald&display=swap');
 
 * {
@@ -7,18 +8,19 @@
     border: none;
 }
 
+/*************
+ * Home Page */
 #home-page {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color:whitesmoke;
-    height: 1000px;
+    height: 1100px;
     width: 100%;
     background: url('../images/note-in-flames.jpg') no-repeat center center;
     background-size: cover;
     background-color: black;
     position: relative;
 }
-
 /* headings and logo */
 header {
     height: 200px;
@@ -45,7 +47,6 @@ header {
     color:khaki;
     font-size: 10px;
 }
-
 #main_menu {
     height: 100px;
     width: 50%;
@@ -53,7 +54,6 @@ header {
     letter-spacing: 3px;
     line-height: 100px;
     float: right;
-
 }
 #main_menu li {
     float: right;
@@ -66,12 +66,10 @@ header {
     text-decoration: none;
     color:aliceblue;
 }
-
 #main_menu a:hover {
     border:1px solid red;
     border-radius: 20%;
 }
-
 #main_menu .active {
     border:1px solid yellow;
     border-radius: 20%;
@@ -95,10 +93,8 @@ header {
     /*background-color: rgb(0, 0, 0, .5);*/
     padding: 50px;
 }
-
 #content-menu li {
     list-style-type: none;
-    
 }
 #content-menu a {
     border:1px solid black;
@@ -111,25 +107,22 @@ header {
     text-decoration: none;
     padding: 10px;
 }
-
 #content-menu a:hover {
     border:1px solid red;
     border-radius: 20%;
     background-color:  rgb(0, 0, 0);
 }
-
 #content-menu .active {
     border:1px solid yellow;
     border-radius: 20%;
     color:aqua;
     background-color:navy;
 }
-
 /* With us text */
 #with-us-text {
     background-color:rgb(0, 0, 0, .7);
-    width: 40%;
-    padding: 0 50px 50px 50px;
+    width: 50%;
+    padding: 0 50px 0 50px;
     font-size: 100%;
     float:left;
 }
@@ -165,6 +158,7 @@ footer{
     bottom: 0;
 }
 #contact-info{
+    width: 50%;
     float: left;
     font-size: 120%;
     font-weight: normal;
@@ -197,20 +191,19 @@ footer{
     list-style-type: none;
     margin-right: 50px;
 }
-
-/* About us page */
+/*****************
+ * About us page */
 #about-us-page {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color:whitesmoke;
-    height: 1000px;
+    height: 1100px;
     width: 100%;
     background: url('../images/treble-clef-in-flames.jpg') no-repeat center center;
     background-size: cover;
     background-color: black;
     position: relative;
 }
-
 #about-us-text {
     background-color:rgb(0, 0, 0, .7);
     width: 40%;
@@ -237,4 +230,94 @@ footer{
     border-top: 1px solid darkkhaki;
     width: 100%;
     margin: 5px 0;
+}
+
+/****************
+ * Sign Up Page */
+#sign-up-page {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color:whitesmoke;
+    height: 1100px;
+    width: 100%;
+    background: url('../images/treble-clef-in-flames.jpg') no-repeat center center;
+    background-size: cover;
+    background-color: black;
+    position: relative;
+}
+#sign-up-text {
+    background-color:rgb(0, 0, 0, .7);
+    width: 40%;
+    padding: 0 50px 50px 50px;
+    font-size: 100%;
+    float:left;
+}
+#sign-up-text h1 {
+    text-align: center;
+    font-size: 150%;
+}
+#sign-up-text label{
+    font-size: 120%;
+    color:darkkhaki;
+    padding-right: 15px;
+}
+.text-input {
+    background: transparent;
+    font-size: 120%;
+    color:darkkhaki;
+    width: 100%;
+    height: 25px;
+    margin: 0px 0 20px;
+    border:1px solid yellow;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: red;
+    background-color: blue;
+    color: darkkhaki;
+}
+
+.join-button {
+    border:1px solid yellow;
+    margin-top: 20px;
+    border-radius: 20%;
+    padding: 15px 32px ; 
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    background-color: darkkhaki;
+    color: blue;
+    display: block
+}
+
+.join-button:hover {
+    border:1px solid  red;
+    background-color: blue;
+    border-radius: 20%;
+    color: darkkhaki;
+}
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1023px) {
+    #main_menu {
+        float: left;
+        height: 50px; 
+        width:100%;
+        letter-spacing: normal;
+        line-height:normal;
+    }
+    #content-menu{
+        float:left;
+        width:100%;
+    }
+
+    #with-us-text {
+        width: 100%;
+    }
+
+    footer{
+        position: relative;
+        clear:both;
+    }
 }
