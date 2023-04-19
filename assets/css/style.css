@@ -2,12 +2,19 @@
  * Main rules */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@500;800&family=Oswald&display=swap');
 
+/* Global styles */
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+html {
+    font-family: 'Audiowide', cursive;
+    color:black;
+    max-width:80vw;
+}
 /*************
  * Home Page */
 #home-page {
