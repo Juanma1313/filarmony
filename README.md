@@ -116,11 +116,12 @@ The live link can be found here - https://juanma1313.github.io/filarmony/index.h
 
 - Implement form validation on the Sign Up page was reused from the Love running project
 - The icons in the footer were taken, with consent, from https://www.divertimusica.com
-- 
 
 ### Media
 - Following background images where obtained from todofondos.com
   * assets/images/treble-clef-in-flames.jpg
   * assets/images/note-in-flames.jpg
 - assets/images/filarmony-logo.jpg is my own.
+- Favicon.png - Downloaded from PNGEgg [png-wglrc-icon](https://www.pngegg.com/en/png-wglrc)
+
 

@@ -12,7 +12,7 @@ In this document, we address these failures and present the solutions that have 
     * The site could be improved further by adding a favicon.
     * There are responsive scroll issues on mobile sized devices
 - __Fix:__
-    - [ ] Add a miningfull favicon
+    - [x] Add a miningfull favicon
     - [ ] Eliminate horizontal scroll-bars.
 
 
