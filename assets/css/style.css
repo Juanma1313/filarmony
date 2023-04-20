@@ -11,9 +11,7 @@
 }
 
 html {
-    font-family: 'Audiowide', cursive;
-    color:black;
-    max-width:80vw;
+    max-width:100vw;
 }
 /*************
  * Home Page */
@@ -29,43 +27,40 @@ html {
     position: relative;
 }
 /* headings and logo */
-header {
+/*header {
     height: 200px;
-}
+}*/
 #logo {
     /* Logo bitmap 893x342 - w/h relation= 0.38 */
-    width:500px;
-    height: 190px;
+    width:33%;
     float: left;
 
 }
 #logo img {
-    width:100%;
-    height: 100%;
-    /*position: absolute;*/
-    left:0px;
-    top:0px;
+    width:90%;
+    height: 90%;
+    margin: auto;
+    display: block;       
 }
 #logo p {
-    width:500px;
-    position: absolute;
-    left:80px;
-    top:150px;
+    position: relative;
     color:khaki;
-    font-size: 10px;
+    font-size: 1.5VW;
+    margin-left:10%;
 }
 #main_menu {
     height: 100px;
-    width: 50%;
+    width: 60%;
     font-size: 100%;
-    letter-spacing: 3px;
-    line-height: 100px;
+    line-height: 300%;
+    display: inline-block;
     float: right;
+    position: relative;
 }
 #main_menu li {
-    float: right;
+    float: left;
     list-style-type: none;
-    margin-right: 50px;
+    margin-right: 5px;
 }
 #main_menu a {
     border:1px solid black;
@@ -305,12 +300,11 @@ footer{
     color: darkkhaki;
 }
 
-/* For screens size smaller than 1024px */
+/* For screens size smaller than 1024px 
 @media screen and (max-width: 1023px) {
     #main_menu {
         float: left;
         height: 50px; 
-        width:100%;
         letter-spacing: normal;
         line-height:normal;
     }
@@ -328,3 +322,4 @@ footer{
         clear:both;
     }
 }
+*/
