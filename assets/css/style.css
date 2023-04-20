@@ -298,12 +298,6 @@ footer{
 
  /*For screens size smaller than 1024px */
 @media screen and (max-width: 1024px) {
-    /*#main_menu {
-        float: left;
-        height: 50px; 
-        letter-spacing: normal;
-        line-height:normal;
-    }*/
     #content-menu{
         float:left;
         width:100%;
@@ -315,9 +309,16 @@ footer{
     #with-us-text {
         width: fit-content;
     }
-/*
-    footer{
-        position: relative;
-        clear:both;
-    }*/
+}
+
+/*For screens size smaller than 768px */
+@media screen and (max-width: 768px) {
+    #social-net {
+        float: right;
+        width: 100%;
+    }
+    #contact-info {
+        float: right;
+        width: 100%;
+    }
 }
