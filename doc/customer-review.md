@@ -34,13 +34,13 @@ In this document, we address these failures and present the solutions that have 
     - Git commits could be made more frequently.
     - Git commit messages could be improved.
 - __Fix:__ 
-    - [ ] Perform commits per source file change as well as per implemented functionality.
+    - [x] Perform commits per source file change as well as per implemented functionality.
 
 ### __L04__ Maximise future maintainability through documentation, code structure and organisation
 - __4.5__ Organise HTML and CSS code into well-defined and commented sections.
     - __Fail:__  Code comments missing for different sections.
     - __Fix:__ 
-        - [ ] Add comments to HTML sections even if they have self explanatory names.
+        - [x] Add comments to HTML sections even if they have self explanatory names.
 - __Additional:__
     - Significant horizontal scrolling is present on mobile and tablet.
 - __Fix:__ 
