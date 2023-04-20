@@ -58,7 +58,9 @@ In this document, we address these failures and present the solutions that have 
     - __Fix:__ Addressed at L02 basic requirements failures
 - __2.1__ Document any bugs found and their fixes and explanation of any bugs that are left unfixed.
     - __Fail:__ Testing steps or guidelines are missing / incomprehensible.
-    - __Fix:__ TODO
+    - __Fix:__ 
+        - [x] Add test results with different screen widths 
+        
 - __4.1__ Present a clear rationale for the development of the project, in the README, - Key project goals, target audience
     - __Fail:__ README file is lacking in detail for the required sections.
     - __Fix:__ TODO
