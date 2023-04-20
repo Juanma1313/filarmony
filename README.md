@@ -81,10 +81,9 @@ At the moment there are 3 functional pages implemented:
 ### Features Left to Implement
 
 - All the content pages would be implemented in the future with dynamic content.
-- Since this is an international web page, it sould be inmplemented in additional languages (Spanish, German, French, etc..)
+- As this is an international website, it should be available in other languages (Spanish, German, French, etc.).
 
 ## Testing 
-
 
 ### Validator Testing 
 

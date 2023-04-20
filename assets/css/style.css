@@ -26,12 +26,8 @@ html {
     background: url('../images/note-in-flames.jpg') no-repeat center center;
     background-size: cover;
     background-color: black;
-    /*position: relative;*/
 }
 /* headings and logo */
-/*header {
-    height: 200px;
-}*/
 #logo {
     /* Logo bitmap 893x342 - w/h relation= 0.38 */
     width:33%;
@@ -52,7 +48,7 @@ html {
 }
 #main_menu {
     height: 100px;
-    width: 60%;
+    width: 65%;
     font-size: 100%;
     line-height: 300%;
     display: inline-block;
@@ -94,7 +90,6 @@ html {
     letter-spacing: 3px;
     line-height: 75px;
     text-align: center;
-    /*background-color: rgb(0, 0, 0, .5);*/
     padding: 50px;
 }
 #content-menu li {
@@ -211,7 +206,6 @@ footer{
     font-size: 100%;
     clear: both;
     margin: auto;
-    /*float:left;*/
 }
 #about-us-text h1 {
     text-align: center;
@@ -254,7 +248,6 @@ footer{
     font-size: 100%;
     clear: both;
     margin: auto;
-/*    float:left;*/
 }
 #sign-up-text h1 {
     text-align: center;
