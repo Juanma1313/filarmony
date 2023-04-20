@@ -93,31 +93,31 @@ At the moment there are 3 functional pages implemented:
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https://juanma1313.github.io/filarmony/index.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 ### Testing on diferent device resolutions 
-- Desktops (width screen resolution from 4k down to 1024, X/Y ratio of 1:19)
+- Desktops (width screen resolution from 4k down to 1024)
   - All pages
     - [x] No horizontal scrolling needed 
     - [x] No vertical scrolling needed
     - [x] Main/Navigation menu is horizontal on the side of the logo
-    - [x] Logo scales correctly
+    - [x] Logo image and text scales correctly
     - [x] Contact information is displayed side by side with the social network icon links
   - Landing Page
     - [x] Side by side "with-us" section and "content-menu"
     - [x] The Home main menu option is highlighted
     - [x] No content menu option is highlighted
   - About Us Page
-    - [x] The about-us text is centered
-    - [x] The about-us text is fully visible
-    - [x] The About-us main menu option is highlighted
+    - [x] The "About Us" text is centered
+    - [x] The "About Us" text is fully visible
+    - [x] The "About Us" main menu option is highlighted
   - Sign Up Page
-    - [x] The sign Up form is centered
-    - [x] The sign Up form is fully visible
-    - [x] The Sign-Up main menu option is highlighted    
+    - [x] The "Sign Up" form is centered
+    - [x] The "Sign Up" form is fully visible
+    - [x] The "Sign Up" main menu option is highlighted    
   
 - Tablets & big moviles (width screen resolution between 1024 and 768 horizontal  pixels )
   - All pages
     - [x] No horizontal scrolling needed 
     - [x] Main/Navigation menu is horizontal on the side of the logo
-    - [x] Logo scales correctly
+    - [x] Logo image and text scales correctly
     - [x] Contact information is displayed side by side with the social network icon links
   - Landing Page
     - [x] Centered "content-menu"
@@ -125,33 +125,33 @@ At the moment there are 3 functional pages implemented:
     - [x] The Home main menu option is highlighted
     - [x] No content menu option is highlighted
   - About Us Page
-    - [x] The about-us text is centered
-    - [x] The About-us main menu option is highlighted
+    - [x] The "About Us" text is centered
+    - [x] The "About Us" main menu option is highlighted
   - Sign Up Page
-    - [x] The sign Up form is centered
-    - [x] The Sign-Up main menu option is highlighted    
+    - [x] The "Sign Up" form is centered
+    - [x] The "Sign Up" main menu option is highlighted    
 
 - Tablets & big moviles (width screen resolution smaller than 768 horizontal pixels )
   - All pages
     - [x] No horizontal scrolling needed 
-    - [-] Main/Navigation menu is horizontal on the side of the logo
-        This is correct down to 376px, but the menu is still usable.
-    - [x] Logo scales correctly
+    - [-] Main/Navigation menu is horizontal on the side of the logo.
+          (This is correct down to 376px, but the menu is still usable)
+    - [x] Logo image and text scales correctly
     - [x] Contact information is displayed bellow the social network icon links
     - [x] Contact information is displayed centered
-    - [-] social network icon links are displayed centered
-         This is correct down to 348px, but the links arfe still usable.
+    - [-] Social network icon links are displayed centered.
+          (This is correct down to 348px, but the links are still usable)
   - Landing Page
     - [x] Centered "content-menu"
-    - [x] Centered with-us" section
-    - [x] The Home main menu option is highlighted
-    - [x] No content menu option is highlighted
+    - [x] Centered "with-us" section
+    - [x] The "Home" main menu option is highlighted
+    - [x] No "content-menu" option is highlighted
   - About Us Page
-    - [x] The about-us text is centered
-    - [x] The About-us main menu option is highlighted
+    - [x] The "About Us" text is centered
+    - [x] The "About Us" main menu option is highlighted
   - Sign Up Page
-    - [x] The sign Up form is centered
-    - [x] The Sign-Up main menu option is highlighted    
+    - [x] The "sign Up" form is centered
+    - [x] The "Sign Up" main menu option is highlighted    
 
 ### Unfixed Bugs
 
@@ -169,7 +169,6 @@ At the moment there are 3 functional pages implemented:
 
 The live link can be found here - https://juanma1313.github.io/filarmony/index.html
 
-
 ## Credits 
 
 ### Content 
@@ -183,7 +182,6 @@ The live link can be found here - https://juanma1313.github.io/filarmony/index.h
   * assets/images/note-in-flames.jpg
 - assets/images/filarmony-logo.jpg is my own.
 - Favicon.png - Downloaded from PNGEgg [png-wglrc-icon](https://www.pngegg.com/en/png-wglrc)
-
 
 # Customer assessment
 The following link leads to the document specifying the client's requirements not met in the first delivery of the project. It also shows the actions taken to remedy them and their current state of development.
