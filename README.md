@@ -125,3 +125,7 @@ The live link can be found here - https://juanma1313.github.io/filarmony/index.h
 - Favicon.png - Downloaded from PNGEgg [png-wglrc-icon](https://www.pngegg.com/en/png-wglrc)
 
 
+# Customer assessment
+The following link leads to the document specifying the client's requirements not met in the first delivery of the project. It also shows the actions taken to remedy them and their current state of development.
+
+[Initial submition customer review ](doc/customer-review.md)
