@@ -250,7 +250,9 @@ footer{
     width: 40%;
     padding: 0 50px 50px 50px;
     font-size: 100%;
-    float:left;
+    clear: both;
+    margin: auto;
+/*    float:left;*/
 }
 #sign-up-text h1 {
     text-align: center;
