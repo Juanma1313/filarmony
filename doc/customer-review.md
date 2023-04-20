@@ -13,20 +13,20 @@ In this document, we address these failures and present the solutions that have 
     * There are responsive scroll issues on mobile sized devices
 - __Fix:__
     - [x] Add a miningfull favicon
-    - [ ] Eliminate horizontal scroll-bars.
+    - [x] Eliminate horizontal scroll-bars.
 
 
 ### __L02__ Test a Front-End web application through the development, implementation and deployment stages
 - __2.6__ Use CSS media queries across the application to ensure the layout changes appropriately and maintains the page's structural integrity across device screen sizes.
     - __Fail:__ Doesn’t work well across various devices / screen sizes.
     - __Fix:__ 
-        - [ ] Size  properly the page main logo for small screen devices
-        - [ ] Relocate/rechape Navegation menu and content menu for small screen devices
-        - [ ] Resize the "With-Us" text for small screen devices
+        - [x] Size  properly the page main logo for small screen devices
+        - [x] Relocate/rechape Navegation menu and content menu for small screen devices
+        - [x] Resize the "With-Us" text for small screen devices
 - __Additional:__
     * Significant horizontal scrolling is present on mobile and tablet.
 - __Fix:__
-    - [ ] Acomodate screen elements for no horizontal scroll-bars presence.
+    - [x] Acomodate screen elements for no horizontal scroll-bars presence.
 
 
 ### __L03__ Deploy a Front-End web application to a Cloud platform
