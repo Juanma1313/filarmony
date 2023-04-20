@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Filarmony</title>
 </head>
+<!-- sign-up page  -->
 <body id="sign-up-page">
     <header> 
         <div id="logo">
@@ -18,6 +19,8 @@
             <p>Where we can all enjoy the music</p>
         </a> 
         </div>
+
+        <!-- Navigation/Main Menu  -->
         <div id="main_menu">
         <nav >
             <ul>
@@ -28,27 +31,29 @@
         </nav>
         </div>
     </header>
+
+    <!-- form to be filled by user  -->
     <section id="sign-up-text">
         <h1>Sign Up</h1>
         <div>
             <form method="POST" action="https://formdump.codeinstitute.net/" >
-                <!-- name, lastname and e-mail input fields -->
+                <!-- name  input fields -->
                 <label for="fname">First Name</label>
                 <input id="fname" name="first_name" type="text" required class="text-input">
-                
+                <!-- lastname input fields -->
                 <label for="lname">Last Name</label>
                 <input id="lname" name="last_name" type="text" required class="text-input">
-                
+                <!-- e-mail input fields -->
                 <label for="email">Email Address</label>
                 <input type="email" id="email" name="email_address" required class="text-input">
-                
+
                 <!-- Radio buttons for user type -->
                 <input id="user" type="radio" name="user_type" value="user" required checked>
                 <label for="user">User</label>
-    
+                <!-- Radio buttons for professional type-->
                 <input id="professional" type="radio" name="user_type" value="professional">
                 <label for="professional">Profesional</label>
-    
+                <!-- Radio buttons for company type-->
                 <input id="company" type="radio" name="user_type" value="company">
                 <label for="company">Company/Shop</label>
                 
@@ -59,6 +64,7 @@
         </div>
     </section>
     <footer>
+        <!-- Social Network links  -->
         <div id='social-net'>
             <ul>
                 <li>
@@ -81,6 +87,7 @@
                 </li>
             </ul>
         </div>
+        <!-- Owner and developer Contact Information  -->
         <div id='contact-info'>
             <h3>Filarmony GmbH</h3>
             <div>
